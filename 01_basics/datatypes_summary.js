@@ -34,3 +34,4 @@ const myFunction = function(){
 myFunction()
 
 console.log(typeof myFunction)
+console.log(typeof outsideTemp)
