@@ -55,10 +55,28 @@ const users = [
 
 // accesing value
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+
+// +++ Object De-Structure +++
+
+const course = {
+    coursename: "Javascript Learning",
+    price: "999",
+    courseInstructor: "yoti"
+}
+
+// console.log(course.courseInstructor);
+
+// de structuring inside curly braces
+const{courseInstructor: instructor} = course
+console.log(instructor);
+
+ 
